@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    background-color: red;
+ /* main */   
+}
+main{
+    background-color: blue;
+    /* footer */
+}
+footer{
+    background-color: rgb(41, 175, 70);
+}
