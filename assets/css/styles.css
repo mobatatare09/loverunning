@@ -39,6 +39,19 @@ h1{
 #menu > li {
 margin-bottom: 1em;
 }
+.active {
+border-bottom: 1px solid #3a3a3a;
+}
+/* navstyles */
+nav {
+position: absolute;
+background-color: #ffffff;
+width: 100%;
+left: 0;
+padding-top: 0 1rem;
+box-shadow: 0 2px 2px #3a3a3a;
+display: none;
+}
 main{
     background-color: rgb(12, 244, 228);
     flex: 1 0 auto;
