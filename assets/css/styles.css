@@ -19,11 +19,25 @@ header{
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
- /* main */
-   
 }
+ /* main */
+ header a {
+text-decoration: none;
+color: inherit;
+ } 
 h1{
     font-family: "Oswald",sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+#menu {
+   font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+#menu > li {
+margin-bottom: 1em;
 }
 main{
     background-color: rgb(12, 244, 228);
