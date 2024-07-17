@@ -95,4 +95,13 @@ padding-right: 1rem;
 .nav-toggle-label{
     display: none;
 }
+#logo {
+    font-size: 100%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+}
+/* main content*/
+main{
+    margin-top: 79px;
+}
 }
