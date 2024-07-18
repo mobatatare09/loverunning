@@ -72,8 +72,17 @@ main{
     margin-top: 47px;
     /* footer */
 }
-footer{
-    background-color: rgb(41, 175, 70);
+#social-networks {
+text-align: center;
+padding: 20px 0;
+display: flex;
+justify-content: space-evenly;
+list-style: none;
+}
+#social-networks i {
+font-size: 160%;
+padding: 5%;
+color: #3a3a3a;
 }
 /* Media query 768px*/
 @media screen and (min-widh: 768px){
@@ -104,4 +113,11 @@ padding-right: 1rem;
 main{
     margin-top: 79pxgi;
 }
+}
+@media screen and(min-width: 992px) {
+#menu a:hoover{
+border-bottom: 1px solid #3a3a3a;
+
+}
+
 }
