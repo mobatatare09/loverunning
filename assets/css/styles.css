@@ -67,10 +67,15 @@ display: block;
 font-size: 2rem;
 }
 main{
-    background-color: rgb(12, 244, 228);
     flex: 1 0 auto;
     margin-top: 47px;
     /* footer */
+}
+/*hero */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 #social-networks {
 text-align: center;
